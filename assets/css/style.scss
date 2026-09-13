@@ -3,6 +3,6 @@
 
 @import "{{ site.theme }}";
 
-li.fork {
+li.fork, span.credits.left {
   display: none !important;
 }
