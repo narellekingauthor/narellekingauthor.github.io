@@ -2,4 +2,3 @@
 <main>
 	<p>*Unfinished*</p>
 </main>
-<script type="text/javascript" src="nk-scripts.js"></script>

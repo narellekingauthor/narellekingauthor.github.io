@@ -3,10 +3,6 @@
 
 @import "{{ site.theme }}";
 
-li.fork, li.title, span.credits.left {
-  display: none !important;
-}
-
 main {
   text-align: center;
 }
