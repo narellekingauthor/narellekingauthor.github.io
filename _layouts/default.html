@@ -20,15 +20,9 @@
       <div id="header">
         <nav>
           <ul>
-            {% if site.show_downloads %}
-              <li class="downloads"><a href="https://www.amazon.com.au/Bonehead-Gate-Narelle-King/dp/0645489654/">Buy from Amazon</a></li>
-              <li class="downloads"><a href="https://blackcockiepress.com.au/shop/#!/The-Bonehead-Gate-Narelle-King/p/655603919/">Buy from Publisher</a></li>
-              <li class="title">The Bonehead Gate</li>
-
-              <li class="downloads"><a href="https://www.amazon.com.au/Bonehead-Resistance-Narelle-King/dp/0645489603/">Buy from Amazon</a></li>
-              <li class="downloads"><a href="https://www.blackcockiepress.com.au/shop/#!/The-Bonehead-Resistance-Narelle-King/p/502171741/">Buy from Publisher</a></li>
-              <li class="title">The Bonehead Resistance</li>
-            {% endif %}
+            {% unless page.url contains "partake-in-purchasing" %}
+              <li class="downloads"><a href="/partake-in-purchasing.md">Get books</a></li>
+            {% endunless %}
           </ul>
         </nav>
       </div><!-- end header -->
