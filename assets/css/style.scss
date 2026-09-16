@@ -33,13 +33,12 @@ a.downloads {
   box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 3px 7px rgba(0,0,0,.7);
   background-color: #93bd20;
   padding: 10px 12px;
-  margin-top: 6px;
+  margin: 0% 30%;
   line-height:14px;
   font-size:14px;
-  display:inline-block;
+  display:block;
   text-align:center;
   float: right;
-  margin-left: 6px;
 
   &:hover {
       background: linear-gradient(#749619, #527f0e);
