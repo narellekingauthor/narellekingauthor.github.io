@@ -12,18 +12,6 @@ span.credits.right a {
   text-decoration: underline;
 }
 
-@media print, screen and (max-width: 480px) {
-  nav {
-    display: block
-  }
-  #header {
-    margin-top: 0px
-  }
-  #title h1 {
-    margin-top: 20px
-  }
-}
-
 a.purchase {
   color: white;
   border: 1px solid #5d910b;
