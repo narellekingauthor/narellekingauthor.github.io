@@ -24,8 +24,7 @@ span.credits.right a {
   }
 }
 
-{% unless page.url contains "partake-in-puchasing" %}
-a.downloads {
+a.purchase {
   color: white;
   border: 1px solid #5d910b;
   background: linear-gradient(#93bd20, #659e10);
@@ -47,4 +46,3 @@ a.downloads {
       box-shadow: inset 0px 1px 1px rgba(0,0,0,.2), 0px 1px 0px rgba(0,0,0,.0);
    }
 }
-{% endunless %}
