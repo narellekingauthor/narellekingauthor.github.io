@@ -17,15 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <ul>
-            {% unless page.url contains "partake-in-purchasing" %}
-              <li class="downloads"><a href="/partake-in-purchasing">Get books</a></li>
-            {% endunless %}
-          </ul>
-        </nav>
-      </div><!-- end header -->
+    <div id="header"></div><!-- end header -->
 
     <div class="wrapper">
 
@@ -43,6 +35,10 @@
         </div>
 
         {{ content }}
+
+        {% unless page.url contains "partake-in-purchasing" %}
+          <a href="/partake-in-purchasing" class="purchase">Buy books</a>
+        {% endunless %}
 
       </section>
 
